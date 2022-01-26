@@ -35,6 +35,16 @@
   margin: 0 10px;
 }
 
+.todo-item__name-section > span,
+.todo-item__name-section > input {
+  font-size: 18px;
+}
+
+.todo-item__name-section > input {
+  height: 30px;
+  outline: none;
+}
+
 .todo-item__config-btns {
   width: 110px;
   justify-content: flex-end;
