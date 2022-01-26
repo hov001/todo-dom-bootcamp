@@ -37,6 +37,11 @@
 
 .row__items {
   min-height: 20px;
+  padding: 10px;
+}
+
+.row__items > .todo-item {
+  border-bottom: 1px dashed var(--gray-color);
 }
 
 .row__footer {

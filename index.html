@@ -11,9 +11,16 @@
       href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
       rel="stylesheet"
     />
+    <link
+      rel="stylesheet"
+      href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+      integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p"
+      crossorigin="anonymous"
+    />
     <link rel="stylesheet" href="./styles/general.css" />
     <link rel="stylesheet" href="./styles/container.css" />
     <link rel="stylesheet" href="./styles/buttons.css" />
+    <link rel="stylesheet" href="./styles/item.css" />
   </head>
   <body>
     <div class="container">
@@ -21,7 +28,22 @@
         <header class="row__header">
           <h1>My todo</h1>
         </header>
-        <section class="row__items"></section>
+        <section class="row__items">
+          <div class="todo-item">
+            <div class="todo-item__check-section checked"></div>
+            <div class="todo-item__name-section">
+              <span>Item 1</span>
+            </div>
+            <div class="todo-item__config-btns">
+              <button class="btn btn-primary" id="todo-edit">
+                <i class="far fa-edit"></i>
+              </button>
+              <button class="btn btn-danger" id="todo-delete">
+                <i class="far fa-trash-alt"></i>
+              </button>
+            </div>
+          </div>
+        </section>
         <footer class="row__footer">
           <button class="btn btn-success" id="add-new">Add new item</button>
           <button class="btn btn-danger" id="delete-selected">
