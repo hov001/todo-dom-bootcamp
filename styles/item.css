@@ -17,6 +17,7 @@
   background-color: var(--white-color);
   border: 2px solid var(--gray-color);
   justify-content: center;
+  cursor: pointer;
 }
 
 .todo-item__check-section.checked::after {
