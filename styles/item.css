@@ -1,5 +1,6 @@
 .todo-item,
-.todo-item__check-section {
+.todo-item__check-section,
+.todo-item__config-btns {
   display: flex;
   align-items: center;
 }
@@ -30,5 +31,10 @@
 }
 
 .todo-item__name-section {
-  width: 50%;
+  width: calc(100% - 150px);
+  margin: 0 10px;
+}
+
+.todo-item__config-btns {
+  width: 110px;
 }
