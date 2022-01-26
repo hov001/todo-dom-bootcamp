@@ -37,4 +37,5 @@
 
 .todo-item__config-btns {
   width: 110px;
+  justify-content: flex-end;
 }
