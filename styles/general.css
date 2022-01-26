@@ -1,4 +1,13 @@
 :root {
+  --white-color: #fff;
+  --primary-color: #6697f9;
+  --primary-border-color: #315399;
+  --success-color: #00d89f;
+  --success-border-color: #00a579;
+  --warning-color: #edc33a;
+  --warning-border-color: #d7a503;
+  --danger-color: #ff605d;
+  --danger-border-color: #f20400;
   --gray-color: #ccc;
 }
 
@@ -7,4 +16,5 @@
   padding: 0;
   font-family: "Nunito", sans-serif;
   box-sizing: border-box;
+  transition: all 0.3s;
 }

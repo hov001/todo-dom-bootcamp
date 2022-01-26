@@ -1,5 +1,6 @@
 .container,
-.row__header {
+.row__header,
+.row__footer {
   display: flex;
   align-items: center;
   justify-content: center;
