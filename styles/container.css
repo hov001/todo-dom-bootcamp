@@ -16,14 +16,14 @@
   width: 400px;
   min-height: 100px;
   border-radius: 10px;
-  box-shadow: 0 0 10px #ccc;
+  box-shadow: 0 0 10px var(--gray-color);
   overflow: hidden;
   background-color: azure;
 }
 
 .row__header {
   height: 50px;
-  border-bottom: 1px dashed #ccc;
+  border-bottom: 1px dashed var(--gray-color);
 }
 
 .row__header > h1 {
