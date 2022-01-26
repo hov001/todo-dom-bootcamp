@@ -21,11 +21,23 @@
   background-color: azure;
 }
 
-.row__header {
+.row__header,
+.row__footer {
   height: 50px;
+}
+
+.row__header {
   border-bottom: 1px dashed var(--gray-color);
 }
 
 .row__header > h1 {
   font-size: 15px;
+}
+
+.row__items {
+  min-height: 20px;
+}
+
+.row__footer {
+  border-top: 1px dashed var(--gray-color);
 }
